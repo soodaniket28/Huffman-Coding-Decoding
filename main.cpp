@@ -81,6 +81,7 @@ void huffman(string input){
         freqMap[input[i]]++;
     }
     
+    //     Define a map to store Huffman Codes
     unordered_map<char,string> huffmanBinaryCodes;
     
     if(freqMap.size()==1){
