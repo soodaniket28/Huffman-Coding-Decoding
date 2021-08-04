@@ -13,7 +13,7 @@ This program is capable of compressing and decompressing a text consisting of th
 ### Compression
 
 1. Read the input text. Count and store the frequency of each character in that.
-2. COnstruct Priority Queue and then the Huffman Tree.
+2. Construct Priority Queue and then the Huffman Tree.
 3. Find out the new Huffman Binary Codes of the characters.
 4. Encode the text and store the Huffman Table of binary codes along with the text.
 
