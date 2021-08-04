@@ -29,7 +29,7 @@ treeNode* makeNode(char ch, int freq, treeNode* left, treeNode* right){
 }
 
 // Compare function for priority queue containing treeNodes
-// We need Nodes with high frequency to have highest priority
+// We need Nodes with high frequency to have high priority
 struct comp{
     bool operator()(treeNode *A, treeNode* B){
         return A->freq > B->freq;}
