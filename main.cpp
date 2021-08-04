@@ -58,10 +58,10 @@ void decode(unordered_map<string,char> decodingMap, string output){
     int i=0;
     while(i<=output.size()){
         
-        //        Character found corresponding to the current string
+        // Character found corresponding to the current string
         if(decodingMap.count(temp)){
             cout<<decodingMap[temp];
-            //        CLear the current string
+            // Clear the current string
             temp = "";
             continue;
         }
