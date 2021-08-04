@@ -35,7 +35,7 @@ struct comp{
         return A->freq > B->freq;}
 };
 
-// FUnciton to retreive all the Binary Codes from the tree
+// Funciton to retreive all the Binary Codes from the tree
 void retreiveBinaryStrings(treeNode* root, string s, unordered_map<char, string> &binaryCodes){
     //    Can't do anything if root is NULL
     if(root==NULL)
