@@ -149,7 +149,7 @@ void huffman(string input){
     
     //    Finding out the Compression Ratio
     long double original = input.size()*8;
-    long double compressed = ceil((double)output.size()/(double)8);
+    long double compressed = ceil((double)output.size());
     long double compRate = compressed/original;
     
     cout<<"The compressed string was "<<compRate*100<<"% of the input string\n";
